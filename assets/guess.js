@@ -1,3 +1,4 @@
+
    
     var letters = ["a", "b", "c", "d", "f", "g", "h", "i"]
     var wins = 0; 
@@ -7,6 +8,7 @@
     console.log("this is your ramdom letter:  " + randomLetter);
     var reSet;
     var userGuess;
+    var guessArray = []
     // window.addEventListener("keypress", display);
     
     // reSet = document.getElementById("reSet")
@@ -17,6 +19,8 @@
     document.onkeypress = function(event){
         var userGuess = event.key;
         console.log("your guess was" + " " + userGuess);
+        guessArray.push(userGuess);
+        console.log ("this is your new array" + guessArray)
         //during the time that losses do not ammount to 1 
         while(losses< 1 && wins < 1){
         //if the user guess input equals the  random letter increment the wins by 1 and congratulate
@@ -53,6 +57,6 @@
 
 //  function display(){
 
-//     document.getElementById("letterTrack").textContent = userGuess;
+document.getElementById("letterTrack").textContent = " " + guessArray;
 }
 
