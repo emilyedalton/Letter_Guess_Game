@@ -19,7 +19,7 @@
     document.onkeypress = function(event){
         var userGuess = event.key;
         console.log("your guess was" + " " + userGuess);
-        guessArray.push(userGuess);
+        guessArray.push(" " + userGuess);
         console.log ("this is your new array" + guessArray)
         //during the time that losses do not ammount to 1 
         while(losses< 1 && wins < 1){
