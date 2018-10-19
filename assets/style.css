@@ -1,0 +1,32 @@
+.outer_box{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: 0;
+    min-height:50em;
+    flex-direction: column; 
+
+}
+
+.inner_box{
+    background-color: aqua;
+    max-width: 50%;
+    display:flex; 
+    align-items:center;
+    justify-content:center;
+    min-height:25em;
+    min-width: 35em;
+    flex-direction: column;
+
+
+
+}
+.button_conainer{background-color: red;
+    border: 2px soild red; 
+}
+#letterTrack{
+
+
+}
