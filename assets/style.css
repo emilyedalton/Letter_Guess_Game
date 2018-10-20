@@ -1,5 +1,13 @@
+h1, h2, h3, p, button, div{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: black; 
+
+}
+
+
+
 .outer_box{
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,12 +15,12 @@
     margin: 0;
     min-height:50em;
     flex-direction: column; 
-    border: 1px solid green;
+    /* border: 1px solid green; */
 
 }
 
 .inner_box{
-    background-color: aqua;
+    /* background-color: aqua; */
     max-width: 50%;
     display:flex; 
     align-items:center;
@@ -20,7 +28,7 @@
     min-height:25em;
     min-width: 35em;
     flex-direction: column;
-    border: 4px solid rgb(117, 0, 128);
+    /* border: 4px solid rgb(117, 0, 128); */
 
 
 
@@ -30,33 +38,76 @@
     border: 4px solid red; 
 
 }
-#letterTrack{ background-color: green;
-
+#letterTrack{    
+     min-height: 3em;
+     font-size: 3em;
 
 }
+
+
 .statsBox{
     
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 100%;
-    border: 4px solid gold;
+    /* border: 4px solid gold; */
 }
     
-#winTrack{background-color: orange;
+#winTrack{
     max-width: 10em;
     
     
     }
-.trackText{background-color:orange;
+
+#attemptsTrack{
+        /* background-color: orange; */
+        max-width: 10em;
+    
+    
+    
+    }
+
+
+    #lossTrack{
+        /* background-color: orange; */
+        max-width: 10em;
+    
+    
+    
+    }
+
+.trackText{
+
+}
+
+
+#attempts{ 
+width:100%;
+height: 100%;
+text-align: center;
+font-size: 3em;
 
 
 }
 
-#attemptsTrack{background-color: orange;
-    max-width: 10em;
+#wins{ 
+    width:100%;
+    height: 100%;
+    text-align: center;
+    font-size: 3em;
 
+
+}
+
+#losses{
+    width:100%;
+    height: 100%;
+    text-align: center;
+    font-size: 3em;
+
+    
 
 
 }

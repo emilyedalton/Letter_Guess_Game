@@ -1,6 +1,6 @@
 
    
-    var letters = ["a", "b", "c", "d", "f", "g", "h", "i"]
+    var letters = ["a", "b", "c", "d", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o","p","q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
     var wins = 0; 
     var losses = 0; 
     var guesses = 10; 
@@ -11,8 +11,8 @@
     var guessArray = []
     // window.addEventListener("keypress", display);
     
-    // reSet = document.getElementById("reSet")
-    // document.addEventListener("click",reset);
+    //  reSet = document.getElementById("reSet")
+    //  document.addEventListener("click",reset);
 
 // function gameInit(){
       
@@ -47,19 +47,12 @@
 
 //should return new random letter
      
-
-// function reset(){
-    
-
-//     var randomLetter = letters[Math.floor(Math.random()*letters.length)];
-//     console.log("this is your ramdom letter:  " + randomLetter);
-//     var reSet;
-// }
-
+ 
 //  function display(){
 
 document.getElementById("letterTrack").textContent = " " + guessArray;
-document.getElementById("attemptsTrack").textContent = guesses;
+document.getElementById("attempts").textContent = guesses;
+document.getElementById("wins").textContent = wins;
+document.getElementById("losses").textContent = losses;
 
-}
-
+    }
