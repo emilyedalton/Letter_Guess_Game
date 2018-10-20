@@ -21,6 +21,7 @@
         console.log("your guess was" + " " + userGuess);
         guessArray.push(" " + userGuess);
         console.log ("this is your new array" + guessArray)
+        console.log("you have this many guesses remaining" + " " + guesses);
         //during the time that losses do not ammount to 1 
         while(losses< 1 && wins < 1){
         //if the user guess input equals the  random letter increment the wins by 1 and congratulate
@@ -58,5 +59,7 @@
 //  function display(){
 
 document.getElementById("letterTrack").textContent = " " + guessArray;
+document.getElementById("attemptsTrack").textContent = guesses;
+
 }
 
