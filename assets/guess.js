@@ -27,7 +27,6 @@
         //if the user guess input equals the  random letter increment the wins by 1 and congratulate
         if(userGuess === randomLetter){
             wins++;
-            alert("CORRECT");
         console.log("you have this many wins" + " "+ wins);
             break;
         // if input incorrect decrement the number of guesses 
