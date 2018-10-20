@@ -111,3 +111,34 @@ font-size: 3em;
 
 
 }
+
+@media (max-width: 640px){
+.outer_box{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: auto;
+    /* min-height:50em; */
+    flex-direction: column;  
+    /* max-width:60%; */
+}
+.inner_box{
+    width: 50%;
+    height: 80%;
+}
+.statsBox{ 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+}
+#letterTrack{  
+    width: 40%; 
+    max-height: 30%; 
+    min-height: 3em;
+    font-size: 3em;
+}
+}
